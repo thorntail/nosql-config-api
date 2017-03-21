@@ -11,6 +11,6 @@
       "/subsystem=cassandradriver",
       "/subsystem=mongodb",
       "/subsystem=neo4jdriver",
-      "/subsystem=orientdb",
+      "/subsystem=orientdb"
   ]
 }

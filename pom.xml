@@ -137,6 +137,7 @@
           </execution>
         </executions>
       </plugin>
+<!--       
       <plugin>
         <groupId>org.wildfly.plugins</groupId>
         <artifactId>wildfly-maven-plugin</artifactId>
@@ -148,13 +149,6 @@
               <goal>start</goal>
             </goals>
             <phase>validate</phase>
-            <configuration>
-              <groupId>org.keycloak</groupId>
-              <artifactId>keycloak-server-dist</artifactId>
-              <version>${version.keycloak}</version>
-              <server-config>standalone.xml</server-config>
-            </configuration>
-
             <configuration>
               <groupId>org.wildfly.nosql</groupId>
               <artifactId>nosql-server-dist</artifactId>
@@ -171,6 +165,7 @@
           </execution>
         </executions>
       </plugin>
+-->      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
