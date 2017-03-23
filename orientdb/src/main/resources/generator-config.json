@@ -1,6 +1,6 @@
 
 {
-  "module": "org.wildfly.swarm.configuration.nosql",
+  "module": "org.wildfly.swarm.configuration.nosql.orientdb",
   "server": {
     "host": "localhost",
     "port": 9990,
@@ -8,9 +8,6 @@
     "pass": "passWord123"
   },
   "generatorTargets": [
-      "/subsystem=cassandradriver",
-      "/subsystem=mongodb",
-      "/subsystem=neo4jdriver",
       "/subsystem=orientdb"
   ]
 }

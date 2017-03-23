@@ -1,0 +1,13 @@
+
+{
+  "module": "org.wildfly.swarm.configuration.nosql.neo4j",
+  "server": {
+    "host": "localhost",
+    "port": 9990,
+    "user": "admin",
+    "pass": "passWord123"
+  },
+  "generatorTargets": [
+      "/subsystem=neo4jdriver"
+  ]
+}
