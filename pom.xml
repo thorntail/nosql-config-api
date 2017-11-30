@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.wildfly.swarm</groupId>
     <artifactId>config-api-parent</artifactId>
-    <version>1.0.2.Final</version>
+    <version>1.2.0</version>
   </parent>
 
   <artifactId>nosql-config-api-parent</artifactId>
@@ -15,7 +15,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <version.wildfly-config>1.0.2.Final</version.wildfly-config>
+    <version.wildfly-config>1.2.0</version.wildfly-config>
   </properties>
   <scm>
     <connection>scm:git:git@github.com:wildfly-swarm/nosql-config-api.git</connection>
