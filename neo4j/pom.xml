@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.wildfly.swarm</groupId>
+    <groupId>io.thorntail</groupId>
     <artifactId>nosql-config-api-parent</artifactId>
-    <version>1.2.5-SNAPSHOT</version>
+    <version>1.3.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>neo4j-config-api</artifactId>
@@ -21,7 +21,7 @@
         <version>1.4.0</version>
         <dependencies>
           <dependency>
-            <groupId>org.wildfly.swarm</groupId>
+            <groupId>io.thorntail</groupId>
             <artifactId>config-api-generator</artifactId>
             <version>${version.wildfly-config}</version>
           </dependency>
@@ -100,7 +100,7 @@
           </execution>
         </executions>
       </plugin>
-<!--  use existing running WildFly server instead of starting a new instance     
+<!--  use existing running WildFly server instead of starting a new instance
       <plugin>
         <groupId>org.wildfly.plugins</groupId>
         <artifactId>wildfly-maven-plugin</artifactId>
@@ -128,7 +128,7 @@
           </execution>
         </executions>
       </plugin>
--->      
+-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>

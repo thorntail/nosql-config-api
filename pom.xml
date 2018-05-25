@@ -4,23 +4,24 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.wildfly.swarm</groupId>
+    <groupId>io.thorntail</groupId>
     <artifactId>config-api-parent</artifactId>
-    <version>1.2.0</version>
+    <version>1.4.0</version>
   </parent>
 
   <artifactId>nosql-config-api-parent</artifactId>
-  <version>1.2.5-SNAPSHOT</version>
+  <version>1.3.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
   <properties>
-    <version.wildfly-config>1.2.0</version.wildfly-config>
+      <!-- We cannot use project.parent.version for submodules -->
+    <version.wildfly-config>1.4.0</version.wildfly-config>
   </properties>
   <scm>
-    <connection>scm:git:git@github.com:wildfly-swarm/nosql-config-api.git</connection>
-    <developerConnection>scm:git:git@github.com:wildfly-swarm/nosql-config-api.git</developerConnection>
-    <url>https://github.com/wildfly-swarm/nosql-config-api</url>
+    <connection>scm:git:git@github.com:thorntail/nosql-config-api.git</connection>
+    <developerConnection>scm:git:git@github.com:thorntail/nosql-config-api.git</developerConnection>
+    <url>https://github.com/thorntail/nosql-config-api</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -33,7 +34,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.wildfly.swarm</groupId>
+      <groupId>io.thorntail</groupId>
       <artifactId>config-api-runtime</artifactId>
       <version>${version.wildfly-config}</version>
     </dependency>
@@ -45,11 +46,10 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${version.junit}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.wildfly.swarm</groupId>
+      <groupId>io.thorntail</groupId>
       <artifactId>config-api-generator</artifactId>
       <version>${version.wildfly-config}</version>
       <scope>test</scope>
