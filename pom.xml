@@ -15,7 +15,7 @@
   <packaging>pom</packaging>
 
   <properties>
-      <!-- We cannot use project.parent.version for submodules -->
+    <!-- We cannot use project.parent.version for submodules -->
     <version.wildfly-config-api>1.7.0</version.wildfly-config-api>
   </properties>
   <scm>
