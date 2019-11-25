@@ -6,7 +6,7 @@
   <parent>
     <groupId>io.thorntail</groupId>
     <artifactId>nosql-config-api-parent</artifactId>
-    <version>1.9.0</version>
+    <version>1.9.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>mongo-config-api</artifactId>
